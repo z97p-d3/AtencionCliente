@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/registrar', 'RegistroControler@index');
+/*	
+Route::get('/clientes', 'RegistroCliente@index');*/
+Route::resource('cliente', 'RegistroCliente');
