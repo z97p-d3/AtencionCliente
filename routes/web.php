@@ -19,3 +19,4 @@ Route::get('/registrar', 'RegistroControler@index');
 /*	
 Route::get('/clientes', 'RegistroCliente@index');*/
 Route::resource('cliente', 'RegistroCliente');
+Route::resource('colas', 'RegistroCliente');

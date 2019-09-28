@@ -2,6 +2,8 @@
 
 @section( 'contenido' )
 <h3>Nuevo Cliente</h3>
+
+
 <form>
   <div class="form-group">
     <label for="exampleFormControlInput1">Identificacion</label>
@@ -17,7 +19,7 @@
     <select multiple class="form-control" id="exampleFormControlSelect2">
       <option>1</option>
       <option>2</option>
-      <option>darkajsdkfhdk</option>
+      <option>3</option>
       <option>4</option>
       <option>5</option>
     </select>
@@ -34,6 +36,17 @@
   </div>
 	  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+
+<li class="treeview">
+              <a href="#">
+                <i class="fa fa-fw fa-database"></i> <span>REPORTES</span> <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li class="active"><a href="javascript:void(0);" onclick="cargarlistado(3,1);" ><i class="fa fa-circle-o"></i> Reportes </a></li>
+                <li class="active"><a href="javascript:void(0);" onclick="cargarlistado(4,1);" ><i class="fa fa-circle-o"></i> Graficas </a></li>
+                
+              </ul>
+            </li> 
 
 
 <div class="row">
